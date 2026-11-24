@@ -3,7 +3,7 @@
 	"version": 1,
 	"newProjectRoot": "projects",
 	"projects": {
-		"JayantGoel001": {
+		"sarkar36": {
 			"projectType": "application",
 			"schematics": {
 				"@schematics/angular:application": {
@@ -89,10 +89,10 @@
 					"builder": "@angular-devkit/build-angular:dev-server",
 					"configurations": {
 						"production": {
-							"buildTarget": "JayantGoel001:build:production"
+							"buildTarget": "sarkar36:build:production"
 						},
 						"development": {
-							"buildTarget": "JayantGoel001:build:development"
+							"buildTarget": "sarkar36:build:development"
 						}
 					},
 					"defaultConfiguration": "development"
@@ -100,7 +100,7 @@
 				"extract-i18n": {
 					"builder": "@angular-devkit/build-angular:extract-i18n",
 					"options": {
-						"buildTarget": "JayantGoel001:build"
+						"buildTarget": "sarkar36:build"
 					}
 				},
 				"test": {
