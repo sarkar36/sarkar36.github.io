@@ -1,1 +1,15 @@
-<footer class="footer"><ng-template #title><strong><em>{{footerData['dev']['name'].toUpperCase()}}</em></strong></ng-template><a rel="noreferrer" [attr.aria-label]="[footerData['dev']['name'] + '(opens in a new tab)']" href="{{footerData['dev']['link']}}" target="_blank" class="footer-dev wow slideInRight" data-wow-delay="0.1s" placement="bottom" [ngbTooltip]="title"><img alt="{{footerData['dev']['name']}}" width="50" height="120" src="assets/images/{{footerData['dev']['image']}}.webp"></a><br><app-social></app-social><h2 class="wow {{footerData['citation']['animationClass']}} copyright-desc mb-0 h6 mt-2" data-wow-delay="0.05s">Designed with <i class="{{footerData['citation']['icon']}}"></i> By {{footerData['citation']['name']}}</h2></footer>
+
+<footer class="footer text-center">
+
+    <app-social></app-social>
+
+    <h2 class="copyright-desc mb-0 h6 mt-3">
+        Designed & Built by Shreya Sarkar
+        <i class="fas fa-heart"></i>
+    </h2>
+
+    <p class="text-muted mt-2 mb-0">
+        © 2026 Shreya Sarkar. All Rights Reserved.
+    </p>
+
+</footer>
